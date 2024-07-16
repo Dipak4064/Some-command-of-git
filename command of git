@@ -4,6 +4,11 @@ git config --global user.name "dipaktamang"--------->which indicate the username
 git config --global user.email "dt1414926@gmail.com"--->which indicates the useremail of workplace
 git config --gif----->this command show the all the configuration
 -----------------------------------------------------------------------------------------------------------------------------
+git clone ---some link----->cloning the repo on our local machine
+git status --->display the state of the code
+-----------------------------------------------------------------------------------------------------------------------------
+
+
   
   
   
