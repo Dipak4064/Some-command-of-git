@@ -1,9 +1,12 @@
 -----------------------------------------------------------------------------------------------------------------------------
+
 #configuration of git
 git config --global user.name "dipaktamang"--------->which indicate the username of workplace 
 git config --global user.email "dt1414926@gmail.com"--->which indicates the useremail of workplace
 git config --gif----->this command show the all the configuration
+
 -----------------------------------------------------------------------------------------------------------------------------
+
 #clone & status
 git clone ---some link----->cloning the repo on our local machine
 git status --->display the state of the code
@@ -18,10 +21,13 @@ ADD + COMMIT------->process of upgrate code
         staged--------->FILE IS READY TO BE COMMITED
           |
        unmodified------>UNCHANGED
+
 -----------------------------------------------------------------------------------------------------------------------------
+
 ls -a ----->show a hidden file in repo
 
 -----------------------------------------------------------------------------------------------------------------------------
+
 #ADD & COMMIT
 ADD---------->adds new or changed file in your working directory to the git staging area.
 git add <file name>
@@ -29,6 +35,15 @@ git add . ---->It is used for add all of the changes
 COMMIT------->it is the record of change
 git commit -m <message>
 
-  
+-----------------------------------------------------------------------------------------------------------------------------
+
+#PUSH COMMAND
+PUSH-------->upload local repo to remote repo
+git push origin main
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#COMMAND INIT
+
   
   
