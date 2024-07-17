@@ -78,5 +78,44 @@ git branch -d <branchname>-------------->to delete branch
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-  
-  
+                                      #MERGING CODE#
+                      
+                                         WAY 1
+                                     --------------
+                                 git diff <branch name>
+                                 git merge <branch name>
+                                 
+                                         WAY 2
+                                    ---------------
+                                 create a PR(pull request)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#PULL REQUEST
+It lets you tell others about changes you've pushed to a branch in a repository on Github.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#PULL COMMAND#
+git pull origin main
+used to fetch and download content from a remote repo and immediately update the local repo to match that content
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#RESOLVING OF MERGE COMFLICT #
+An event that takes place when git is unable to automatically resolve differences in ocde between two commits.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#Undoing Changes
+Case 1:staged changes
+   git rest <file name>
+   git reset
+Case 2:Commited changes(for one commit)
+git reset HEAD~1
+
+Case 3:Commited changes(for may commits)
+git reset <commit hash>
+git reset --hard <commithash>
+
+-----------------------------------------------------------------------------------------------------------------------------
