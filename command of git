@@ -45,8 +45,36 @@ git push origin main
 
 #COMMAND INIT
 INIT----->used to create a new repo
- git init
- git remote add origin <link>
+git init---------->initialized the repo
+git remote add origin <link>------>it changes the location of the code to another repo
+git remote -v -------->to verify remote,find the state of repo
+git branch ---->To check branch
+git branch -M main----->To rename branch
+git push origin main
+git push -u origin main-------->there no need to enter orgin/branches
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+                                       #WORKFLOW#
+                                   -------------------
+                                     git hube repo
+                                           |
+                                         clone
+                                           |
+                                        changes
+                                           |
+                                         commit
+                                           |
+                                          push
+
+-----------------------------------------------------------------------------------------------------------------------------
+#GIT BRANCHES
+git branch------------------>To check branch
+git branch -M main------------->Reaneme branch
+git checkout <branchname>--------->To navigate
+git checkout -b <new branchname>----->To create a new branch
+git branch -d <branchname>-------------->to delete branch
+
 
 
   
