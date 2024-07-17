@@ -68,6 +68,7 @@ git push -u origin main-------->there no need to enter orgin/branches
                                           push
 
 -----------------------------------------------------------------------------------------------------------------------------
+
 #GIT BRANCHES
 git branch------------------>To check branch
 git branch -M main------------->Reaneme branch
@@ -75,7 +76,7 @@ git checkout <branchname>--------->To navigate
 git checkout -b <new branchname>----->To create a new branch
 git branch -d <branchname>-------------->to delete branch
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 
   
   
