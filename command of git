@@ -108,14 +108,18 @@ An event that takes place when git is unable to automatically resolve difference
 -----------------------------------------------------------------------------------------------------------------------------
 
 #Undoing Changes
-Case 1:staged changes
-   git rest <file name>
+Case 1:staged changes------availe for commit stage
+   git rset <file name>
    git reset
 Case 2:Commited changes(for one commit)
 git reset HEAD~1
 
-Case 3:Commited changes(for may commits)
-git reset <commit hash>
-git reset --hard <commithash>
+Case 3:Commited changes(for many commits)
+git reset <commit hash>-------------->only chnage the commit
+git reset --hard <commit hash>---------->change the commited code in vscode
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+#Fork
+A for is a new repo that shares code and visibility setting with the original "upstream" repository.
+Fork is a rough copy.
