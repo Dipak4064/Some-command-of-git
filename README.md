@@ -2,10 +2,13 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 #configuration of git
-<P>hello</p>
-#git config --global user.name "dipaktamang"
-#git config --global user.email "dt1414926@gmail.com"
+
+git config --global user.name "dipaktamang"
+
+git config --global user.email "dt1414926@gmail.com"
+
 git config --global --list
+
 git config --gif----->this command show the all the configuration
 
 -----------------------------------------------------------------------------------------------------------------------------
