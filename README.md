@@ -2,8 +2,9 @@
 -----------------------------------------------------------------------------------------------------------------------------
 
 #configuration of git
-git config --global user.name "dipaktamang"--------->which indicate the username of workplace 
-git config --global user.email "dt1414926@gmail.com"--->which indicates the useremail of workplace
+git config --global user.name "dipaktamang"
+git config --global user.email "dt1414926@gmail.com"
+git config --global --list
 git config --gif----->this command show the all the configuration
 
 -----------------------------------------------------------------------------------------------------------------------------
