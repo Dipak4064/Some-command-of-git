@@ -127,3 +127,4 @@ git reset --hard <commit hash>---------->change the commited code in vscode
 #Fork
 A for is a new repo that shares code and visibility setting with the original "upstream" repository.
 Fork is a rough copy.
+nothing is done
