@@ -127,3 +127,23 @@ git reset --hard <commit hash>---------->change the commited code in vscode
 #Fork
 A for is a new repo that shares code and visibility setting with the original "upstream" repository.
 Fork is a rough copy.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#SSH KEY SETUP
+ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -f keypath -t ed25519 -C "your_email@example.com"
+shh -T git@github.com
+
+#WHEN DEFAULT SSH KEY NAME:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+git clone git@github.com:morebahadur/somethingwrong.git
+git pull
+
+#WHEN CUSTOM SSH KEY NAME:
+ssh-keygen -f keypath -t ed25519 -C "FOR GITHUB"
+GIT_SSH_COMMAND="ssh -i ~/.ssh/githbaction_ed25519"
+git clone git@github.com:morebahadur/somethingwrong.git
+GIT_SSH_COMMAND="ssh -i ~/.ssh/githubaction_ed25519"
+git pull
+
