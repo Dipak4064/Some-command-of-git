@@ -1,13 +1,10 @@
-
 -----------------------------------------------------------------------------------------------------------------------------
 
 #configuration of git
 
-git config --global user.name "dipaktamang"
+git config --global user.name "dipaktamang"--------->which indicate the username of workplace 
 
-git config --global user.email "dt1414926@gmail.com"
-
-git config --global --list
+git config --global user.email "dt1414926@gmail.com"--->which indicates the useremail of workplace
 
 git config --gif----->this command show the all the configuration
 
@@ -51,9 +48,7 @@ git commit -m <message>
 -----------------------------------------------------------------------------------------------------------------------------
 
 #PUSH COMMAND
-
 PUSH-------->upload local repo to remote repo
-
 git push origin main
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -68,6 +63,8 @@ git remote add origin <link>------>it changes the location of the code to anothe
 
 git remote -v -------->to verify remote,find the state of repo
 
+git remote set-url origin <link of repo>
+
 git branch ---->To check branch
 
 git branch -M main----->To rename branch
@@ -78,17 +75,20 @@ git push -u origin main-------->there no need to enter orgin/branches
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-                                       #WORKFLOW#
-                                   -------------------
-                                     git hube repo
-                                           |
-                                         clone
-                                           |
-                                        changes
-                                           |
-                                         commit
-                                           |
-                                          push
+                    #WORKFLOW#                                       #REMOTE PUSH#
+                -------------------                            ------------------------
+                  git hube repo                                       git init
+                        |                                                |
+                      clone                                git remote add origin <link of repo>
+                        |                                                |
+                     changes                                         git remote -v
+                        |                                                |
+                      commit                               git remote set-url origin <link of repo>
+                        |                                                |
+                       push                                     git checkout -b main
+                                                                         |
+                                                                  add ,commit ,push
+                                                              
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -144,14 +144,12 @@ An event that takes place when git is unable to automatically resolve difference
 Case 1:staged changes------availe for commit stage
 
    git rset <file name>
-
+   
    git reset
-
-
+   
 Case 2:Commited changes(for one commit)
 
 git reset HEAD~1
-
 
 Case 3:Commited changes(for many commits)
 
