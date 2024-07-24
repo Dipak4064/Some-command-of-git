@@ -155,6 +155,7 @@ git pull
  git diff staged
  git revert [saved hash]
  git clean -d --force
+ git config --global --list
  
  End
  
